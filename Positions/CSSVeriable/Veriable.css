@@ -1,0 +1,8 @@
+:root{
+    --prime-color:#eac276;
+    --backg-color:#b676ea;
+}
+p{
+    color: var(--prime-color);
+    background-color: var(--backg-color);
+}

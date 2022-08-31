@@ -1,0 +1,5 @@
+.fixed-background{
+    background-image: url('../Images/panorama-2646143__340.jpg');
+    background-size: cover;
+   background-attachment:fixed;
+}

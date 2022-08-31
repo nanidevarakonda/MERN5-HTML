@@ -1,0 +1,30 @@
+.name{
+  margin-left: 60px;
+}
+.mail{
+  margin-left: 70px;
+}
+.ph{
+  margin-left: 83px;
+}
+.msg{
+  margin-left: 18px;
+}
+.msg1{
+  margin-left: 68px;
+}
+span{
+  border: 1px solid;
+   margin-left: 52px;
+   padding: 1em;
+   background-color: azure;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.button{
+  margin-left: 134px;
+  background-color: blue;
+  border: none;
+  padding: 1em;
+  border-radius: 5px;
+  color: azure;
+}

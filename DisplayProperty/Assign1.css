@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+#design>div{
+  display: inline;
+}
+div{
+    margin-left: 70px;
+    color: red;
+}
+.hover:hover{
+    /* visibility: hidden; */
+    color: aliceblue;
+    background-color: aqua;
+    font-size: 100px;
+    font-family: cursive;
+    position: relative;
+    top: 300px;
+    left: 200px;
+    border-radius: 30px;
+    text-shadow: 4px 4px gray;
+    box-shadow: 4px 4px blue;
+font-variant:small-caps;
+}
+#design{
+    background-color: darkcyan;
+}
+.move:hover{
+    color: orange;
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 30px;
+    box-shadow: 5px 5px navy;
+    /* visibility: hidden; */
+}

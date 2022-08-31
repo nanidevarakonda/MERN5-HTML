@@ -1,0 +1,10 @@
+@import url(./Style2.css);
+
+
+div{
+    color: aqua;
+}
+span{
+    background-color: black;
+    color: white;
+}

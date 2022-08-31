@@ -1,0 +1,12 @@
+*{
+   box-sizing: content-box;
+   margin: 0px;
+   padding: 0px;
+}
+
+p{
+    width: 400px;
+    height: 300px;
+    border: 2px solid black;
+    padding: 200px;
+}

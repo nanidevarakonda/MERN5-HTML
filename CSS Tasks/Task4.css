@@ -1,0 +1,33 @@
+ /* div {
+    border: 1px solid black;
+    width: 800px;
+    height: 180px;
+}
+div>h4{
+    display: inline;
+    margin-inline-end: 300px;
+    padding: 10px;
+    }
+pre{
+     color: aqua; 
+    background-color:aliceblue; 
+   font-size: 15px;
+   padding: 10px;
+}
+pre:nth-child(odd){
+    background-color:bisque;
+}  */
+ table {
+ border-spacing: 0;
+ width: 60%;
+ border: 1px solid #ddd;
+ position: relative;
+ margin-left: 5%;
+} 
+th,td{
+    text-align: left;
+    padding: 16px;
+}
+tr:nth-last-child(odd){
+    background-color: #f2f2f2;
+}

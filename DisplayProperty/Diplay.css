@@ -1,0 +1,36 @@
+:root{
+    --parent-bg:aqua;
+    --child-bg:blue;
+}
+*{
+    margin: 0px;
+}
+#inline{
+  background-color: var(--parent-bg);
+}
+#inline>div{
+    display: inline-block;
+}
+ #inline>div{
+  padding-right: 40px;
+  /* margin-right: 30px; */
+}
+#block{
+    background-color: var(--child-bg);
+}
+#block>span{
+    display: block;
+    margin-bottom: 20px;
+}
+.none{
+    background-color: blueviolet;
+}
+.dis_none{
+    display: none;
+}
+.hidden{
+    background-color: brown;
+}
+.vis_hid{
+    visibility: hidden;
+}

@@ -1,0 +1,15 @@
+.img1{
+   position: relative;
+   z-index: 3;
+}
+.img2{
+    position: absolute;
+    left: 150px;
+    top: 100px;
+z-index: 2;
+}
+.img3{
+    position: absolute;
+    left: 250px;
+        top: 200px;
+}

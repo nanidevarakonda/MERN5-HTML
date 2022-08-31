@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+}
+.disable{
+    background-color: aqua;
+    pointer-events: none;
+}
+.disable:hover{
+   background-color:blue;
+   color: white;
+}
+.shadow{
+    margin: 30px;
+    box-shadow:-5px -30px 20px 20px   orange;
+}
+input:focus{
+    border:5px solid greenyellow;
+  /* border-color: aquamarine; */
+  outline: none;
+}
+
+#sele_child :nth-last-child(1){
+    color: blueviolet;
+}
+.box_button{
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    outline: 5px solid black;
+   outline-offset: 3px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+#button-position{
+    position: relative;
+    top: 274px;
+    left: 490px;
+    background-color: rgb(130, 234, 234);
+    color: white;
+    border: none;
+    font-weight: 300;
+    border-radius: 2px;
+    font-size: 20px;
+}
+.override img{
+    /* background-image: url("../Images/panorama-2646143__340.jpg"); */
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100%;
+    height: 300px;
+    opacity:calc(.2);
+}
+.override p{
+    color:black;
+    text-align: justify;
+    padding-left: 10px;
+    font-size: medium;
+}
+.border-round button{
+    border: none;
+    background-color: rgb(105, 166, 226);
+    border-radius: 5px;
+    font-size: medium;
+    margin-left: 40px;
+    padding: 10px;
+    color: white;
+    font-weight: 300;
+}
+.select-child h3{
+     color: goldenrod;
+}
+.select-child h4 {
+    color:magenta;
+}

@@ -1,0 +1,14 @@
+div{
+    border: 3px dashed blue;
+}
+.img1{
+    border-radius: 50%;
+    border-right: 20px solid blue;
+    border-top: 20px dotted orange;
+    border-left: 30px dashed green;
+    border-bottom: 10px double violet
+}
+.img2{
+    border-radius: 40%;
+    border-right: 30px solid orange;
+}

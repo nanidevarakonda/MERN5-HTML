@@ -1,0 +1,12 @@
+div{
+    /* background-color: aqua; */
+    background: url('./water-1330252__340.jpg');
+    /* background-size: cover; */
+    /* color:green; */
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-size: larger;
+    background-attachment:local;
+    background-blend-mode:multiply;
+    background-position: center center;
+}

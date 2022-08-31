@@ -1,0 +1,14 @@
+.square{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+.child-square{
+   width:100px;
+   height: 100px;
+   border: 1px solid black; 
+   position: absolute;
+   top: 55px;
+   left: 55px;
+   background-color: dimgray;
+}

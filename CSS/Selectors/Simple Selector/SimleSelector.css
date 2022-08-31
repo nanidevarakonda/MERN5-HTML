@@ -1,0 +1,36 @@
+ /* universal selector  */
+ *{
+    color: brown;
+    background-color: aqua;
+}
+/* element selector */
+div{
+    font-size: 30px;
+}
+/* class selector */
+.start{
+    font-family: cursive;
+    text-shadow: 2px 3px crimson;
+}
+.end{
+    color: violet;
+}
+/* to give similar property for diff classes */
+.end, .start{
+    background-color: aliceblue;
+}
+#nen{
+    font-family: cursive;
+    background-color: orange;
+}
+#sad{
+    
+    color: antiquewhite;
+        background-color: black;
+}
+.das{
+    color: blue !important;
+}
+#nen{
+    color: brown;
+}

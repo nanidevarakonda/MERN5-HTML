@@ -1,0 +1,7 @@
+@import url(./Style1.css);
+/* external css  */
+p{
+    font-size: 30px;
+    color: maroon !important;
+    text-shadow:3px 3px yellow ;
+}

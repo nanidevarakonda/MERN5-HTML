@@ -1,0 +1,25 @@
+/* descendent selector slect all the child element present inside the parent element */
+section p{
+    color: crimson;
+}
+section h3{
+    color: blue;
+}
+section h4{
+    font-family: cursive;
+}
+section div {
+    color: aqua !important;
+}
+/* child selector */
+section>p{
+    background-color: forestgreen;
+}
+/* adjecent sibling combinator */
+p+div{
+    text-shadow: 2px 3px rebeccapurple;
+}
+/* general sibling selector */
+span~p{
+    font-size: 50px;
+}
