@@ -1,0 +1,9 @@
+/* body{
+    background-color:rgb(100,159,200);
+} */
+/* body{
+    background-color: rgba(230,140,100,0.3);
+} */
+body{
+    background-image:linear-gradient(to left,red,blue,orange);
+}
