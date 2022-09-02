@@ -8,6 +8,7 @@
     height: 70px;
     background-color: rgb(213, 212, 211);
     border-bottom: 2px solid rgb(150, 149, 148) ;
+  
 }
  #main-block>article {
     width: 90%;
@@ -43,7 +44,7 @@
     background-color: azure;
         border-radius: 5px;
         padding: 5px;
-        transition: all 0.3s ease-in-out;
+        transition: all 1s ease-in-out;
     
   }
   .menu-block>ul>li>a:hover{
@@ -56,7 +57,7 @@
      background-color:azure;
      border-radius: 5px;
      padding: 5px;
-     transition: all 0.3s ease-in-out;
+     transition: 1s ease-in-out;
    } 
    article>.reg-block>ul>li>a:hover{
     display: flex;
