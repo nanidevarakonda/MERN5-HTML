@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+#mainBlock{
+    width: 100%;
+    height: 110vh;
+    background-image:url('./Assets/3606208.jpg');
+    position: relative;
+}
+.navBlock{
+    width: 90%;
+    height: 10vh;
+    margin: 0 auto;
+    display: flex;
+}
+.navBlock>.logoBlock{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.logoBlock i{
+    font-size: 30px;
+}
+.logoBlock h4{
+color: rgb(65, 14, 14);
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 20px;
+font-weight: bold;
+padding-left: 10px;
+}
+.navBlock .menuBlock {
+    width: 50%;
+    margin-top: 10px;
+}
+.navBlock .menuBlock ul li{
+    list-style: none;
+    padding-left: 30px;
+}
+.navBlock .menuBlock ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+/* font-family: 'Roboto Condensed', sans-serif; */
+}
+.navBlock .menuBlock a{
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(65,14,14);
+font-size: 12px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.navBlock .menuBlock i{
+    position: absolute;
+    right: 230px;
+}
+.navBlock .menuBlock ul{
+    display: flex;
+    justify-content:flex-end;
+ 
+}
+ .contentBlock{
+    width: 90%;
+    height: 85vh;
+    margin: 0 auto;
+    display: flex;
+    flex-basis: 50%;
+}
+.contentBlock .contentPara{
+    flex-basis: 50%;
+    height: inherit;
+    position: relative;
+}
+.contentBlock .contentPara p{
+    width: 350px;
+    padding: 8px;
+    border: 2px dashed rgb(65, 14, 14);
+    position: absolute;
+    top: 25%;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgb(65, 14, 14);
+    font-weight: 600;
+}
+.contentBlock .contentPara h2:nth-child(2){
+    position:absolute;
+    top: 30%;
+    font-size: 90px;
+    text-transform: uppercase;
+    color: rgb(65, 14, 14);
+    text-shadow: 3px 1px 1px white;
+font-family: 'Alfa Slab One', cursive;
+letter-spacing: 2px;
+}
+.contentBlock .contentPara h2:last-child {
+    position: absolute;
+    top: 49%;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: rgb(65, 14, 14);
+    text-shadow: 3px 1px 1px white;
+    font-family: 'Alfa Slab One', cursive;
+    letter-spacing: 2px;
+}
+.contentImgage {
+    position: relative;
+    flex-basis: 50%;
+        height: inherit;
+}
+.contentImgage .contentImgage-img1{
+    position: absolute;
+    top: 30%;
+    right: 90px;
+    z-index: 5;
+}
+.contentImgage .contentImgage-img2 {
+    width: 150px;
+    height: 450px;
+    position: absolute;
+    top: 10%;
+  right: 60px;
+   z-index: 2;
+}
+.contentImgage .contentImgage-img3 {
+    position: absolute;
+    top: 18%;
+    right: 340px;
+    z-index: 3;
+}
+.contentImgage .contentImgage-img4 {
+    position: absolute;
+    top: -80%;
+    right: -260px;
+    z-index: 1;
+}
+.contentImgage .contentImgage-img5 {
+    position: absolute;
+    width: 600px;
+   bottom: -70px;
+   left: 10px;
+}
+.contentImgage .contentImgage-img6 {
+    position: absolute;
+    width: 250px;
+    bottom: -15px;
+    left: 350px;
+}
+.contentOffer{
+    width: 120px;
+    height: 120px;
+    background-color: red;
+    text-align: center;
+    padding-top: 30px;
+   border-radius: 50%;
+   outline: 2px dashed white;
+   outline-offset: -10px;
+   color: white;
+   position: absolute;
+   top: 420px;
+   z-index: 11;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 20px;
+}
+.contentOffer h4{
+    letter-spacing: 3px;
+}
+.contentOffer span{
+    font-size: 15px;
+}
+#imageBlock{
+    width: 90%;
+    height: 80vh;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+    display: flex;
+}
+#imageBlock .leftImage{
+    padding-top: 30px;
+    position: relative;
+}
+#imageBlock .leftImage h3{
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    color: white;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+        text-transform: uppercase;
+        font-size: 15px;
+}
+#imageBlock .leftImage h2 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    color: white;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+#imageBlock .rightImages {
+    padding-top: 30px;
+    padding-left: 22px;
+    position: relative;
+}
+#imageBlock .rightImages .rightImage-first h3{
+    position: absolute;
+    top: 50px;
+    left:50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',
+            sans-serif;
+            font-size: 15px;
+}
+#imageBlock .rightImages .rightImage-first h2:nth-child(3) {
+    position: absolute;
+    top: 70px;
+    left: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+        font-size: 20px;
+}
+#imageBlock .rightImages .rightImage-first h2:last-child {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+        font-size: 20px;
+}
+#imageBlock .rightImages .rightImage-second{
+    padding-top: 30px;
+}
+#imageBlock .rightImages .rightImage-second h3{
+    position: absolute;
+    bottom: 185px;
+    left: 50px;
+    color: white;
+    font-family: 'Roboto Condensed',
+            sans-serif;
+        font-size: 15px;
+        text-transform: uppercase;
+}
+#imageBlock .rightImages .rightImage-second h2 {
+    position: absolute;
+    bottom: 160px;
+    left: 50px;
+    color: white;
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#content_Block{
+    width: 85%;
+    height: 30vh;
+    /* background-color:aqua; */
+    margin: 0 auto;
+    padding-top: 20px;
+}
+/* #content_Block p:first-child{
+  text-align: center;
+   padding: 10px;
+    background-color: orange;
+    text-transform: uppercase;
+    color: rgb(65, 14, 14);
+    font-family: 'Roboto Condensed',
+            sans-serif;
+} */
+#content_Block b{
+    background-color: orange;
+    text-transform: uppercase;
+    padding: 10px;
+    margin-left: 42%;
+    color: rgb(65, 14, 14);
+        font-family: 'Roboto Condensed',
+            sans-serif;
+}
+#content_Block h1{
+    color: rgb(65, 14, 14);
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    padding-left: 36%;padding-top: 20px;
+}
+#content_Block p:last-child{
+    color: rgb(65, 14, 14);
+    text-align:center;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            position: relative;
+            animation-name: example;
+            animation-duration: 10s;
+            /* animation-delay: 2s; */
+            /* animation-direction:alternate; */
+            animation-iteration-count: 5;
+        }
+        /* @keyframes example{
+    from{
+        border-radius: 0%;
+        background-color: aqua;
+    }
+    to{border-radius: 100%;
+         background-color: yellow;}
+        } */
+        @keyframes example{
+            0%{
+                top: 0px;left: 0px; 
+            }
+            25%{
+                top: 0px;left: 500px; border-radius: 25%;
+                background-image: linear-gradient(orange,dimgray);
+            }
+         50%{ top: 500px;left: 500px;  border-radius: 50%;
+         background-image:linear-gradient(yellow,red);}
+         75%{
+            top: 500px;left: 0px; border-radius: 75%;
+             background-image:radial-gradient(blue,crimson);
+         }
+         100%{
+            top: 0px;left: 0px;
+             background-image:radial-gradient(yellow,red);
+         }
+        }
+        /* from{
+            background-image: linear-gradient(orange,dimgray);
+        }
+        to{
+            background-image: -o-linear-gradient(yellow,red);
+        } */
+    </style>
+</head>
+<body>
+    <div>
+
+    </div>
+</body>
+</html>

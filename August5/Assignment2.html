@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: relative;
+            width: 100%;
+            height:100vh ;
+            background-image: linear-gradient(black,white);
+        }
+     .img1{
+        position: absolute;
+        top: 600px;
+        left: 600px;
+        animation-name: style1;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+       z-index: 10;
+      }
+       .img2{
+        position: absolute;
+        top: 500px;
+        left: 700px;
+        animation-name: style2;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+       z-index: 9;
+      }
+      .img3{
+        position: absolute;
+        top: 400px;
+        left: 800px;
+        animation-name: style3;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+         z-index: 8;
+      }
+      .img4{
+        position: absolute;
+        top: 300px;
+        left:900px;
+        animation-name: style4;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+         z-index: 7;
+      }
+      .img5{
+        position: absolute;
+        top: 500px;
+        left: 500px;
+        animation-name: style5;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+         z-index: 6;
+      }
+      .img6{
+        position: absolute;
+        top: 400px;
+        left: 400px;
+        animation-name: style6;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+         z-index: 5;
+      }
+      .img7{
+        position: absolute;
+        top: 300px;
+        left: 300px;
+        animation-name: style7;
+        animation-duration: 10s;
+        animation-iteration-count: 5;
+         z-index: 4;
+      } 
+     
+      @keyframes style1{
+        0%{
+            top: 600px;
+            left: 600px;
+            /* z-index: inherit; */
+        }
+        15%{
+            top: 500px;
+            left: 500px ;
+        }
+        30%{
+             top: 400px;
+        left: 400px;
+        }
+        45%{
+            top: 300px;
+        left: 300px; 
+        }
+        60%{
+             top: 300px;
+        left:900px;
+        }
+        75%{
+              top: 400px;
+        left: 800px;
+        }
+        90%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+      @keyframes style2{
+         15%{
+            top: 600px;
+            left: 600px;
+            z-index: 10;
+        }
+        30%{
+            top: 500px;
+            left: 500px ;
+        }
+        45%{
+             top: 400px;
+        left: 400px;
+        }
+        60%{
+            top: 300px;
+        left: 300px; 
+        }
+        75%{
+             top: 300px;
+        left:900px;
+        }
+        90%{
+              top: 400px;
+        left: 800px;
+        }
+        0%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+      @keyframes style3{
+         30%{
+            top: 600px;
+            left: 600px;
+               z-index: 10;
+        }
+        45%{
+            top: 500px;
+            left: 500px ;
+        }
+        60%{
+             top: 400px;
+        left: 400px;
+        }
+        75%{
+            top: 300px;
+        left: 300px; 
+        }
+        90%{
+             top: 300px;
+        left:900px;
+        }
+        0%{
+              top: 400px;
+        left: 800px;
+        }
+        15%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+      @keyframes style4{
+         45%{
+            top: 600px;
+            left: 600px;
+                z-index: 10;
+        }
+        60%{
+            top: 500px;
+            left: 500px ;
+        }
+        75%{
+             top: 400px;
+        left: 400px;
+        }
+        90%{
+            top: 300px;
+        left: 300px; 
+        }
+        0%{
+             top: 300px;
+        left:900px;
+        }
+        15%{
+              top: 400px;
+        left: 800px;
+        }
+        30%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+      @keyframes style5 {
+         90%{
+            top: 600px;
+            left: 600px;
+               z-index: 10;
+        }
+        0%{
+            top: 500px;
+            left: 500px ;
+        }
+        15%{
+             top: 400px;
+        left: 400px;
+        }
+        30%{
+            top: 300px;
+        left: 300px; 
+        }
+        45%{
+             top: 300px;
+        left:900px;
+        }
+        60%{
+              top: 400px;
+        left: 800px;
+        }
+        75%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+      @keyframes style6{
+         75%{
+            top: 600px;
+            left: 600px;
+               z-index: 10;
+        }
+        90%{
+            top: 500px;
+            left: 500px ;
+        }
+        0%{
+             top: 400px;
+        left: 400px;
+        }
+        15%{
+            top: 300px;
+        left: 300px; 
+        }
+        30%{
+             top: 300px;
+        left:900px;
+        }
+        45%{
+              top: 400px;
+        left: 800px;
+        }
+        60%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+      @keyframes style7{
+         60%{
+            top: 600px;
+            left: 600px;
+              z-index: 10;
+        }
+        75%{
+            top: 500px;
+            left: 500px ;
+        }
+        90%{
+             top: 400px;
+        left: 400px;
+        }
+        0%{
+            top: 300px;
+        left: 300px; 
+        }
+        15%{
+             top: 300px;
+        left:900px;
+        }
+        30%{
+              top: 400px;
+        left: 800px;
+        }
+        45%{
+            top: 500px;
+        left: 700px;
+        }
+      }
+    </style>
+</head>
+<body>
+    <div>
+        <img class="img1" src="https://cdn.pixabay.com/photo/2017/08/13/13/14/motorcycle-2637088__340.jpg" alt="" width="300px" height="200px">
+         <img class="img2" src="https://cdn.pixabay.com/photo/2017/06/26/22/43/ktm-2445495__340.jpg" alt=""width="300px" height="200px">
+        <img class="img3" src="https://cdn.pixabay.com/photo/2019/04/19/10/29/motorcycle-4139052__340.jpg" alt="" width="300px" height="200px">
+        <img  class="img4" src="https://cdn.pixabay.com/photo/2017/03/07/16/16/supermoto-2124509__340.jpg" alt=""width="300px" height="200px">
+        <img class="img5" src="https://cdn.pixabay.com/photo/2018/07/01/11/42/royal-enfield-3509231__340.jpg" alt="" width="300px" height="200px">
+        <img class="img6" src="https://cdn.pixabay.com/photo/2021/01/15/17/21/royal-enfield-5919908__340.jpg" alt="" width="300px" height="200px">
+        <img class="img7" src="https://cdn.pixabay.com/photo/2020/08/12/07/43/motorcycle-5481889__340.jpg" alt="" width="300px" height="200px"> 
+    </div>
+</body>
+</html>

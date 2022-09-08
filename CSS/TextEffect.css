@@ -1,0 +1,23 @@
+/* text-overflow */
+p{
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+/* word-wrap property */
+.demo{
+width: 100px;
+border: 1px solid red;
+word-wrap:break-word ;
+}
+/* word-break */
+.test{
+    width: 100px;
+    border: 1px solid red;
+    word-break:keep-all;
+    
+}
+

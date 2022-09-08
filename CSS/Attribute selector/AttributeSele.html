@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="./AttributeSele.css">
+</head>
+<body>
+    <!--1. [attribute] -->
+    <a href="#" target="">Home</a>
+    <a href="#" target="">Service</a>
+    <a href="#" target="">Login</a>
+    <br>
+    <!--2. [attribute="value"] -->
+    <a href="#" target="">Home</a>
+    <a href="#" target="_blank">Service</a>
+    <a href="#" target="">Login</a>
+    <br>
+    <!--3. [attribute~="value"] -->
+    <p class="demo">Java</p>
+    <p class="test demo">JavaScript</p>
+    <p class="content-demo">Testing</p>
+    <p class="Demo">React</p>
+    <!-- 4.[attribute |="value"] -->
+    <div class="test">Surya</div>
+    <div class="try-test">Karthi</div>
+    <div class="first test">Vijay</div>
+    <div class="test-second">Vikram</div>
+
+    <!-- 5.[attribute^="value"] -->
+    <ul>
+        <li class="car">Mahindra</li>
+        <li  class=" per car">Tata </li>
+        <li class="car-petrol">Marithi Suzuki</li>
+        <li class="car_blank">Renult</li>
+    </ul>
+    <!-- 6.[attribute$="value"] -->
+
+    <ul>
+        <li class="best-">Mahindra</li>
+        <li class="-best">Tata </li>
+        <li class="-best">Marithi Suzuki</li>
+        <li class="first best">Renult</li>
+    </ul>
+
+    <!-- 7.[attribute*="value"] -->
+    <ol>
+        <li class=" best-">Mahindra</li>
+        <li class="-best">Tata </li>
+        <li class="-best car">Marithi Suzuki</li>
+        <li class="first best">Renult</li>
+    </ol>
+</body>
+</html>

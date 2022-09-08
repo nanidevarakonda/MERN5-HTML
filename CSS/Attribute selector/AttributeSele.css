@@ -1,0 +1,40 @@
+/* 1. [attribute]*/
+a[target]{
+    color:black;
+    text-decoration: none;
+}
+/* 2. [attribute="value"] */
+a[target="_blank"]{
+    font-size: large;
+    color: orange;
+}
+  /*3. [attribute~="value"]  */
+  p[class~="demo"]{
+    color: crimson;
+  }
+  /* [i is a flag iin RegExp its defines case insencitive  */
+/* p[class~="demo" i] {
+    color: crimson;
+} */
+/* 4.[attribute |="value"] */
+div[class|="test"]{
+    text-shadow: 5px 4px orange;
+    font-size: large;
+}
+ /* 5.[attribute^="value"] */
+ ul li[class^="car"]{
+    font-size: larger;
+ }
+ /* 6.[attribute$="value"]*/
+ ul li[class$="best"]{
+    color: blue;
+ }
+ /* 7.[attribute*="value"] */
+ ol li[class*="best"]{
+    font-size: large;
+    background-color: dimgrey;
+    color: aqua;
+ }
+ body{
+  background-image: linear-gradient(to right top, #412d38, #55374f, #64436b, #6d528c, #6b64af, #5970bd, #3f7cc8, #0087d1, #0088bf, #0087a8, #00838e, #077e76);
+ }
