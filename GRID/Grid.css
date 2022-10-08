@@ -13,10 +13,10 @@
     /* grid-template-columns: 100px 300px; */
    /* grid-template-columns: 30% auto 20%; */
    /* gap: 20px 0px ; */
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(4,1fr);
    justify-items: center;
    /* align-items: center; */
-   justify-content: space-around;
+   /* justify-content: space-around; */
    align-content: space-between;
 }
 .grid-item{

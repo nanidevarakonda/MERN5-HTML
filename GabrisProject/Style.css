@@ -1,0 +1,504 @@
+:root {
+--primecl:rgb(249,62,2);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color:rgba(132, 131, 131, 0.196);
+}
+header{
+    width: 80%;
+    height: 20vh;
+    margin: 0 auto;
+    display: flex;
+    /* background-color: aqua; */
+}
+.rightHeading{
+    flex-basis: 50%;
+    /* padding-bottom: 20px; */
+    /* text-align: center; */
+    justify-content: center;
+}
+.rightHeading span:first-child{
+    font-size: 80px;
+    font-family: 'Noto Serif', serif;
+}
+.rightHeading span:last-child{
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+.leftHeading{
+    flex-basis: 50%;
+    text-align: end;
+    padding-top: 10px;
+    /* justify-items: center; */
+    align-items: center;
+    padding-top: 50px;
+}
+.leftTopHeading span:first-child{
+    font-size: 12px;
+    color:rgb(147, 150, 150);
+       font-family: 'Poppins', sans-serif;
+
+}
+.leftTopHeading span:last-child{
+    font-size: 12px;
+    font-weight: bold;
+      font-family: 'Poppins', sans-serif;
+
+}
+.leftBottomHeading ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.leftBottomHeading ul li{
+    list-style: none;
+}
+.leftBottomHeading ul li a{
+    padding-left: 5px;
+    font-size: 13px;
+    color:rgb(147, 150, 150);
+        font-family: 'Poppins', sans-serif;
+
+}
+.leftBottomHeading ul span{
+    color:rgb(147, 150, 150);
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+    border: 4px solid white;
+    background-color: white;
+    display: flex;
+}
+.searchBar{
+display: flex;
+    flex-basis: 30%;
+flex-direction: column;
+  justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: inherit;
+}
+form{
+    position: relative;
+    /* background: black; */
+    width: 400px;
+    height:55px ;
+}
+form input{
+ position: absolute;
+ height: 30px;
+ border: none;
+ outline: none;
+ background-color: rgb(200, 200, 204);
+ opacity: 0.4;
+ top: 10px;
+ color:red;
+ /* font-size: 16px; */
+}
+/* form button{
+    position: absolute;
+ left: 212px;
+height: 30px;
+} */
+.fa-solid{
+position: absolute;
+top: 17px;
+left: 200px;
+z-index: 1;
+color: rgb(173, 173, 178);
+}
+.navbar ul{
+    display: flex;
+    flex-basis: 70%;
+}
+.navbar ul li {
+    list-style: none;
+    flex-basis: 15%;
+    text-align: center;
+    padding: 30px;
+    border-right: 1px solid rgba(206, 193, 193, 0.271);
+}
+.navbar ul li:last-child{
+    flex-basis: 25%;
+}
+.navbar ul li input{
+height: 30px;
+    border: 1px solid white;
+    background-color: rgba(233, 236, 239, 0.987);
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:rgb(57, 55, 55);
+    font-family: 'Noto Serif', serif;
+}
+.navbar ul :hover{
+    background-color:var(--primecl);
+    color: white;
+}
+.search-bar input{
+    outline: none;
+}
+.search-bar  input:hover{
+    background-color: white;
+    color: black;
+}
+#imgSec{
+    background-color: white;
+    height: 90.5vh;
+    position: relative;
+}
+.img-section{
+    width: 80.5%;
+    height: 90vh;
+    margin: 0 auto;
+    border: 4px solid white;
+}
+.empty{
+    position: absolute;
+      background-color:rgba(132, 131, 131, 0.196);
+      height: 10vh;
+      width: 9.7%;
+      top: 587px;
+}
+.empty1{
+    position: absolute;
+      background-color:rgba(132, 131, 131, 0.196);
+      height: 10vh;
+      width: 9.5%;
+      top: 587px;
+      left: 90.5%;
+}
+.img-section img{
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+.invitePra p:first-child{
+    position: absolute;
+    font-size: 70px;
+    left: 57%;
+    top: 300px;
+    color: var(--primecl);
+}
+.invitePra p:nth-child(2){
+    position: absolute;
+    font-size: 70px;
+    left: 57%;
+    top: 353px;
+}
+.invitePra p:nth-child(3){
+    position: absolute;
+    font-size: 70px;
+    left: 57%;
+    top: 405px;
+}
+.invitePra button:nth-child(4){
+    position: absolute;
+    left: 57%;
+    top: 500px;
+    background-color: var(--primecl);
+    color: white;
+    border: none;
+    width: 200px;
+    padding: 15px;
+}
+#details-section{
+    display: flex;
+    width: 80%;
+    height: 60vh;
+     margin: 0 auto;
+     position: relative;
+     padding-top: 30px;
+}
+#leftContentWith{
+    flex-basis: 50%;
+    /* padding-top: 25px; */
+}
+.leftContentWith-heading p{
+    font-size: 40px;
+    font-family: 'Noto Serif', serif;
+}
+.leftContentWith-image{
+    margin-top: 20px;
+}
+.leftContentWith-image img{
+    border: 5px solid white;
+    filter: grayscale(100%);
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.leftContentWith-image span:nth-child(2){
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-family: 'Noto Serif', serif;
+font-size: 14px;
+}
+.leftContentWith-image span:nth-child(3){
+    letter-spacing: 1px;
+    font-family: 'Noto Serif', serif;
+font-size: 14px;
+opacity: 0.4;
+}
+.readButton button{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: var(--primecl);
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 370px;
+}
+#rightContentWith{
+    flex-basis: 50%;
+    position: relative;
+}
+.rightContentWithPara p{
+    font-size: 40px;
+    /* font-weight: bold; */
+    font-family: 'Noto Serif', serif;
+}
+.rightContentWithButton button{
+    position: absolute;
+    outline: none;
+    border: none;
+    background-color: var(--primecl);
+    padding: 15px;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+}
+#site-details{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+    height: 40vh;
+    /* background-color: aqua; */
+}
+.site-detailsCapabilities{
+    position: relative;
+    flex-basis: 50%;
+}
+.site-detailsCapabilities h2{
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 20px;
+}
+.site-detailsCapabilities ul{
+    position: absolute;
+    left: 20px;
+    line-height: 25px;
+}
+.site-detailsCapabilities ul li{
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+}
+.site-detailsCapabilities button{
+    border: none;
+    outline: none;
+    padding: 15px;
+    background-color: var(--primecl);
+    color: white;
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    position: absolute;
+    top: 220px;
+}
+.site-detailsTeam-leaders{
+    display: flex;
+    flex-basis: 50%;
+    position: relative;
+    /* padding-top: 20px; */
+}
+.site-detailsTeam-leaders div:nth-child(2){
+  position: absolute;
+  top: 55px;
+}
+.site-detailsTeam-leaders div:nth-child(2) img{
+    border: 4px solid white;
+    filter: grayscale(100%);
+}
+.site-detailsTeam-leaders div:nth-child(2) h3{
+    font-family: 'Noto Serif', serif;
+     font-size: 15px;
+     font-weight: 500;
+}
+.site-detailsTeam-leaders div:nth-child(2) h4{
+    font-family: 'Noto Serif', serif;
+     font-size: 13px;
+     font-weight: 500;
+     opacity: 0.4;
+}
+.site-detailsTeam-leaders div:nth-child(3){
+  position: absolute;
+  left: 180px;
+  top: 55px;
+}
+.site-detailsTeam-leaders div:nth-child(3) img{
+    border: 4px solid white;
+    filter: grayscale(100%);
+}
+.site-detailsTeam-leaders div:nth-child(3) h3{
+    font-family: 'Noto Serif', serif;
+     font-size: 15px;
+     font-weight: 500;
+}
+.site-detailsTeam-leaders div:nth-child(3) h4{
+    font-family: 'Noto Serif', serif;
+     font-size: 13px;
+     font-weight: 500;
+     opacity: 0.4;
+}
+.site-detailsTeam-leaders div:nth-child(4){
+  position: absolute;
+  left: 360px;
+  top: 55px;
+}
+.site-detailsTeam-leaders div:nth-child(4) img{
+    border: 4px solid white;
+    filter: grayscale(100%);
+}
+.site-detailsTeam-leaders div:nth-child(4) h3{
+    font-family: 'Noto Serif', serif;
+     font-size: 15px;
+     font-weight: 500;
+}
+.site-detailsTeam-leaders div:nth-child(4) h4{
+    font-family: 'Noto Serif', serif;
+     font-size: 13px;
+     font-weight: 500;
+     opacity: 0.4;
+}
+footer{
+    display: flex;
+    width: 80%;
+    height: 30vh;
+    margin: 0 auto;
+    position: relative;
+}
+#footerSection{
+    width: 100%;
+    height: 35vh;
+    background-color: white;
+}
+footer .companyDetails{
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    line-height: 30px;
+}
+footer .companyDetails p{
+    font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 20px;
+}
+footer .companyDetails ul li{
+    font-family: 'Noto Serif', serif;
+     font-weight: 500;
+    opacity: 0.5;
+}
+footer .serviceDetails{
+    position: absolute;
+    top: 30px;
+    left: 220px;
+    line-height: 30px;
+}
+footer .serviceDetails p{
+     font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 20px;
+}
+footer .serviceDetails ul li{
+    font-family: 'Noto Serif', serif;
+     font-weight: 500;
+    opacity: 0.5;
+}
+footer .solutionDetails{
+    position: absolute;
+    top: 30px;
+    left: 420px;
+    line-height: 30px;
+}
+footer .solutionDetails p{
+     font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 20px;
+}
+footer .solutionDetails ul li{
+    font-family: 'Noto Serif', serif;
+     font-weight: 500;
+    opacity: 0.5;
+}
+footer .supportDetails{
+    position: absolute;
+    top: 30px;
+    left: 630px;
+    line-height: 30px;
+}
+footer .supportDetails p{
+     font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 20px;
+}
+footer .supportDetails ul li{
+    font-family: 'Noto Serif', serif;
+     font-weight: 500;
+    opacity: 0.5;
+}
+footer .signUpDetails{
+    position: absolute;
+    top: 30px;
+    left: 820px;
+}
+footer .signUpDetails p{
+      font-size: 30px;
+    font-family: 'Noto Serif', serif;
+    padding-bottom: 20px;
+}
+#footerSection hr{
+color: rgb(154, 154, 162);
+opacity: 0.4;
+}
+.signUpDetails-search{
+    position: relative;
+    width: 400px;
+    height: 50px;
+    /* background-color: aqua; */
+}
+.signUpDetails-search input{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    top: 0px;
+    color: black;
+    font-size: 20px;
+}
+.signUpDetails-search button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border: none;
+    outline: none;
+    left: 300px;
+    color: white;
+    background-color: var(--primecl);
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.signUpDetails a{
+    position: relative;
+    top: 40px;
+    color: black;
+    opacity: 0.4;
+    font-family: 'Noto Serif', serif;
+}

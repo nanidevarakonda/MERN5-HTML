@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        span{
+            border-bottom: 100px solid blue;
+            border-left: 100px solid transparent;
+            border-right: 100px solid transparent;
+            transform: rotate(90deg);
+            animation-name: ex ;
+            animation-duration: 10sec;
+            animation-delay: 2sec;
+            position: relative;
+            animation-iteration-count: 10;
+        }
+        @keyframes ex{
+            0%{
+                    transform: rotate(60deg);
+            }
+            25%{
+                transform: rotate(120deg);
+            }
+            50%{
+                transform: rotate(180deg);
+            }
+            75%{
+                transform: rotate(240deg);
+            }
+            100%{
+                transform: rotate(300deg);   
+            }
+        }
+    </style>
+</head>
+<body>
+    <span></span>
+</body>
+</html>
